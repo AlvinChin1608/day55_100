@@ -19,7 +19,7 @@ def bye():
     return 'bye'
 ```
 
-- __Routes:__ Defined routes like / (root), /bye (formatted text), and dynamic route /<name>/<int:number> for greetings.
+- __Routes:__ Defined routes like / (root), /bye (formatted text), and dynamic route /&lt;name&gt;/&lt;int:number&gt;for greetings.
 - __Function Logging:__ Created a logging_decorator to log function calls, arguments, and return values.
 
 ```python
